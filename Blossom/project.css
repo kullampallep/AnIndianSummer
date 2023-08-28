@@ -1,0 +1,143 @@
+body{
+    background-image: url(BackgroundIndia.png) ;  
+    background-size: cover;
+    }
+
+#page-title{
+border: solid;
+border-radius: 20px;
+padding: 5px;
+border-color: #C29984;
+color: #4F235E;
+border-width: 5px;
+text-align: center;
+display: inline-block;
+
+}
+
+#title-image{
+
+max-width: 500px;
+max-height:500px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-right: 50%;
+margin-left: 50%;
+
+}
+
+#image-size{
+    max-width: 500px;
+    max-height: 500px;
+    border-style:double;
+    border-width: 5px;
+    border-color: #C29984;
+    
+    
+
+}
+
+#top-section{
+  margin-bottom: 40px;
+  
+
+}
+
+.chapter-1 {
+    
+    display: flex;
+    margin: 10px;
+
+}
+
+.img-chapter1{
+    margin: 20px;
+    display:flex;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4F235E;
+    border-style: solid
+
+}
+
+.chp1-content{
+    font-family: Verdana, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    color:#4F235E
+    display: inline-block;
+    
+    border-color: #4F235E;
+    border-radius: 20px;
+
+}
+
+.chp1-text{
+    overflow-wrap: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+
+}
+
+.header1{
+    border-bottom: solid;
+    border-color: #4F235E
+}
+.body-text{
+   padding-top: 0px;
+}
+
+.chp-1-button{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: #C29984;
+border: none;
+color:aliceblue;
+text-align: center;
+display: inline-block;
+align-items: center;
+font-size: 15px;
+padding: 10px;
+border-radius: 10px;
+margin-right: 10px;
+
+
+}
+
+.buttons{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #4F235E;
+    border: none;
+    color:aliceblue;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+
+    }
+    
+    #all-buttons{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right:10px;
+        margin-left: 20px;
+        background-color: #4F235E;
+    }
+
+    .buttons:hover {
+        background-color: #C29984; /* Green */
+        color: white;
+      }
+    
+      #all-buttons:hover{
+        background-color: #4F235E; /* Green */
+        color: white;
+      }

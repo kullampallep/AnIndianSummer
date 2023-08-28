@@ -1,0 +1,85 @@
+
+body{
+    background-image: url(AnIndianSummerShortStoryCoverPage\ \(1\).png) ;  
+    background-size: cover;
+    }
+
+
+#chapter1titleimg{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+
+
+}
+
+#ch1-img{
+
+    border-style: double;
+    border-color: #C29984;
+    border-width: 5px;
+}
+
+
+
+#chapter1titleimg{
+    display:flex;
+
+}
+.chapter-content{
+
+    border-style: solid;
+    border-color: #4F235E;
+    color: #4F235E;
+    overflow-wrap: hidden;
+    border-radius: 20px;
+    display: flex;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:white;
+    margin: 20px;
+    line-height: 30px;
+     
+
+}
+
+.buttons{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: #4F235E;
+border: none;
+color:aliceblue;
+text-align: center;
+display: inline-block;
+align-items: center;
+font-size: 15px;
+padding: 10px;
+border-radius: 10px;
+margin-right: 10px;
+transition-duration: 0.4s;
+
+}
+
+#all-buttons{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right:10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    background-color: #4F235E;
+
+}
+
+.buttons:hover {
+    background-color: #C29984; /* Green */
+    color: white;
+  }
+
+p{
+    text-indent: 50px;
+  }
